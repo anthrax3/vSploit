@@ -17,7 +17,7 @@ class Metasploit3 < Msf::Auxiliary
 
 	def initialize
 		super(
-			'Name'         => 'VSploit File Stream Generator',
+			'Name'         => 'vSploit File Stream Generator',
 			'Version'      => '$Revision$',
 			'Description'  => 'This module generates network file streams for testing IDS/IPS/etc.',
 			'Author'       => 'MJC',
