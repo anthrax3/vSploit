@@ -92,9 +92,7 @@ class Metasploit3 < Msf::Auxiliary
 				data = rar
 			when "ZIP"
 				data = zip
-			#else
-			#	print_error("Please set FILE_TYPE to: ELF, EXE, RAR, or ZIP")
-			#	return
+
 		end
 
 		# Create TCP connection and send data
