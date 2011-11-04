@@ -12,7 +12,7 @@ class Metasploit3 < Msf::Auxiliary
 	def initialize
 		super(
 			'Name'         => 'VSploit Red DNS Query Module',
-			'Version'      => '$Revision: 13528 $',
+			'Version'      => '$Revision$',
 			'Description'  => 'This module queries malware related DNS records.',
 			'Author'       => 'MJC',
 			'License'      => MSF_LICENSE,
